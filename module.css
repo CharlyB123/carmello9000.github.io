@@ -1,0 +1,40 @@
+body {
+	padding: 15;
+}
+
+
+/* Add your styles below */
+
+
+.cute {
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.box {
+	position: absolute;
+	top:50px;
+	left: 10px;
+	width: 30px;
+	height: 30px;
+	border-radius: 10px;
+
+}
+
+a {
+	color: #F806A3;
+}
+
+a:hover {
+	color: #06F8A3;
+}
+
+.cutepic {
+	position: absolute;
+	margin-left: 800px;
+	box-shadow: 2px 2px 8px black;
+	
+	
+}

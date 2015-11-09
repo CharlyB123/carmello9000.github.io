@@ -2,19 +2,82 @@
     <head>
         <title>THE CELLULAR DEVICE</title>
         <link href="style.css" rel="stylesheet" type="text/css">
+        <link href="module.css" rel="stylesheet" type="text/css">
     </head>
     <body>
             
             <p class="tiny1">HOTLINEBLING</p>
             <hr class="hr">
             <p class="tiny2">CELLULAR DEVICE<p>
-            <p class="lol1"> click therapy 4u</p>
-            <p class="lol">click on her</p>
+            
+            <script>
+            var ie=document.all?1:0
+            var ns6=document.getElementById&&!document.all?1:0
+            var ns4=document.layers?1:0
+            var posleft=1
+            var idoftrembleobject="trembletext"
+            var trembleobject
+            
+            function starttremble() {
+                if (ie || ns4 || ns6) {
+                    if (ie) {
+                        trembleobject=eval("document.all."+idoftrembleobject+".style")
+                    }
+                    if (ns6) {
+                        trembleobject=idoftrembleobject
+                    }
+                    
+            	    dotremble()
+                }
+            }
+            function dotremble() {
+                posleft*=-1
+                if (ie) {
+            	    trembleobject.posLeft+=posleft  
+                }
+                if (ns6) {
+            	    var newpos=parseInt(document.getElementById(trembleobject).style.left)+posleft
+                    document.getElementById(trembleobject).style.left=newpos
+                }
+                var timer=setTimeout("dotremble()",20)
+            }
+            onload=starttremble
+            </script>
+            
+            <div id="tremblebox" style="position:relative">
+            <span id="trembletext" style="position:absolute;left:10px;top:30px;">
+            <p class="lol1">You've reached the Erykah Badu hotline!
+                 If you're calling for Erykah, press 1. 
+                 If you're calling to wish her a happy birthday, Kwanzaa, MLK, Black History Month, Juneteenth, or Hanukkah, press 2.
+                 If you're calling because you just saw her on B.E.T, MTV, or any other social media outlet, and you're checking to make sure you're still in good standing, press 3.
+                 If you're calling to beg for some shit in general, press 4.
+                 If you're calling to beg for some shit, but this is that pre-call before the actual begging, press 5.
+                 If you've already made that pre-call and this is the actual call that you beg, press 6.
+                 If you're calling to ask for some free tickets in a city near you, and know she don't really fuck with you like that? Press 7.
+                 If you're calling to book Erykah, to flip the first burger at your company BBQ, or to DJ at your little cousins slip-and-slide party, press 8.
+                 If you're calling to say peace, and don't really fit into any of those descriptions
+                Text me, because I don't really answer voicemail....</p>
+            </span></div>
+            <p class="lol1"> </p>
+            <p class="lol">i want you (pls) 2 click the</p>
+            <p class="lol3">(they r not 2gether anymore, u'll see, trust me)</p>
             <p>
+                <audio controls autoplay loop>
+                  <source src="klingel.mp3"></div>
+                </audio>
                 <img src="http://oi68.tinypic.com/34fxta0.jpg" class="eb4"></img>
                 <img src="http://oi66.tinypic.com/124dmp3.jpg" class="eb1"></img>
                 <img src="http://oi63.tinypic.com/25quel1.jpg" class="eb2"></img>
-               
+            
+                <!-- This anchor should link to your ARTIFACT -->
+		        <a href="http://carmello9000.github.io/artifact.html">
+
+
+				<!-- Placing an image on the stage -->
+				<img src="http://i269.photobucket.com/albums/jj52/NikAnarcotic/animation/bichinho001.gif" class="cutepic"></img>
+				
+
+                
                 <p></p>
                 <a href="artifact.html" class="link"> <img src="http://oi64.tinypic.com/2wpm144.jpg" class="eb3"</a>
             </p>
