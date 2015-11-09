@@ -4,10 +4,10 @@ var song;
 var system;
 
 function preload() {  
-  img1 = loadImage('AG.jpg');
-  img2 = loadImage('BS.jpg');
-  img3 = loadImage('grande.jpg');
-  song = loadSound('HLB.mp3');
+  img1 = loadImage('ariana/AG.jpg');
+  img2 = loadImage('ariana/BS.jpg');
+  img3 = loadImage('ariana/grande.jpg');
+  song = loadSound('ariana/HLB.mp3');
 }
 
 function setup() {
