@@ -3,9 +3,10 @@ var img2;
 var song;
 var system;
 
-function preload() {  // preload() runs once
+function preload() {  
   img1 = loadImage('AG.jpg');
   img2 = loadImage('BS.jpg');
+  img3 = loadImage('grande.jpg');
   song = loadSound('HLB.mp3');
 }
 
@@ -30,7 +31,8 @@ function draw() {
   textSize(60);
   text(":)", width/2, height/2);
   } else {
-  image(img2, 30, 550);
+  image(img2, 50, 400);
+  image(img3, 600, 0);
 }
   
   
