@@ -29,7 +29,7 @@ function draw() {
   image(img1, 50, 150);
   textAlign(CENTER);
   textSize(60);
-  text(":)", width/2, height/2);
+  text("click on ari :)", width/2, height/2);
   } else {
   image(img2, 50, 400);
   image(img3, 600, 0);
@@ -224,13 +224,11 @@ function draw() {
 
   
 function mousePressed() {
+  
 if ( song.isPlaying() ) {
   song.pause();
 } else {
   song.play();
-  textAlign(CENTER);
-  textSize(60);
-  text("click pls :)", width/2, height/2);
 }
 }
 
