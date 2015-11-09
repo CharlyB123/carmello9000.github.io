@@ -34,7 +34,9 @@ a:hover {
 .cutepic {
 	position: absolute;
 	margin-left: 800px;
+	margin-top: -30px;
 	box-shadow: 2px 2px 8px black;
+	border: 8px inset;
 	
 	
 }
