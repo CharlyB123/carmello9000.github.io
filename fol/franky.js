@@ -4,7 +4,6 @@ var pic3;
 var pic4;
 var fsong;
 
-
 function preload(){
   pic1 = loadImage('fol/frankoceanquote.jpg');
   pic2 = loadImage('fol/kanyewest.jpg');
@@ -24,15 +23,8 @@ function draw() {
 
   background("#577C49");
   
- 
+  text("Do you want to read his letter? Press 'f' please.", width/2, height/2);
   
-  var sec = second();
-  
-  if (sec <=10) {
-    text("Do you want to read his letter? Press 'f' please. You have 3 sex to decide.", width/2, height/2);
-  } else {
-    text("Bye. Come back if you have any integrity left", width/2, height/2);
-  } 
   
   if (key === 'f') {
     text("BASEDGOD WAS RIGHT. we’re all a bunch of golden million dollar babies. my hope is that the babies born these days will inherit less of the bullshit than we did. anyhow, what i’m about to post is for anyone who cares to read. it was intended to fill the thank you’s section in my album credits, but with all the rumors going round.. I figured it’d be good to clarify…", 25, 150, 300);
