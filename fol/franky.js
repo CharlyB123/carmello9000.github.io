@@ -23,7 +23,6 @@ function draw() {
 
   background("#577C49");
   
-  textSize(30);
   text("Do you want to read his letter? Press 'f' please.", width/2, height/2);
   
 
