@@ -7,7 +7,7 @@ function preload() {
   img1 = loadImage('ariana/AG.jpg');
   img2 = loadImage('ariana/BS.jpg');
   img3 = loadImage('ariana/grande.jpg');
-  song = loadSound('ariana/HLB.mp3');
+  song = loadSound('ariana/focus.mp3');
 }
 
 function setup() {
