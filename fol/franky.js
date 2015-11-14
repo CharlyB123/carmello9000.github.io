@@ -27,7 +27,7 @@ function draw() {
   fill('white');
   text("Do you want to read his letter? Press 'f' please.", width/2, height/2);
   
-  noFill();
+
   if (key === 'f') {
     noFill();
     background("#577C49");
