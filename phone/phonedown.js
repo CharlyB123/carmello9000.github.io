@@ -1,7 +1,7 @@
 var pdsong;
 var gif1;
-var v1 = 150;
-var v2 = 150;
+var v1 = 100;
+var v2 = 100;
 
 function preload(){
   pdsong = loadSound('phone/phonedown.mp3');
