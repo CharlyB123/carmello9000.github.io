@@ -11,7 +11,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(3000, 3000);
   song.loop();
 }
 
@@ -29,7 +29,7 @@ function draw() {
   image(img1, 50, 150);
   textAlign(CENTER);
   textSize(60);
-  text("click on ari :)", width/2, height/2);
+  text("click on ari :)", 1500, 1500);
   } else {
   image(img2, 50, 400);
   image(img3, 600, 0);
